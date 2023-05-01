@@ -45,6 +45,10 @@ The logger can be configured using `Logger.configure()` with the following optio
 | timestampFormat | string | The timestamp format to use. See [here](https://help.sumologic.com/docs/send-data/reference-information/time-reference/) for more information. | `%Y-%m-%d %H:%M:%S` |
 | consoleColors | table | The colors to use for each log level in the console. | See `logger.lua` |
 
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change ^-^
+
 ## License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for more information.
