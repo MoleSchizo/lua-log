@@ -8,7 +8,7 @@ local defaultConfig = {
     consoleColors = true,
     enableFile = false,
     filename = "log.txt",
-    maxFileSize = 1024 * 1024,
+    maxFileSize = 1024 * 1024 * 10, -- 10MB
     tags = {}
 }
 
