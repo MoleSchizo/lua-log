@@ -43,7 +43,7 @@ The logger can be configured using `Logger.configure()` with the following optio
 | filename | string | The filename to log to. | `app.log` |
 | maxFileSize | number | The maximum size of the log file in bytes. If the file exceeds this size, it will be cleared. | `1024 * 1024 * 10` (10 MB) |
 | timestampFormat | string | The timestamp format to use. See [here](https://help.sumologic.com/docs/send-data/reference-information/time-reference/) for more information. | `%Y-%m-%d %H:%M:%S` |
-| consoleColors | table | Whether or not to use colors for each log level in the console. | `true` |
+| consoleColors | boolean | Whether or not to use colors for each log level in the console. | `true` |
 
 ## Contributing
 
