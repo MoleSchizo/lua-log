@@ -64,18 +64,6 @@ end
     @param message The log message.
     @param tags The log tags.
 ]]
---[[
-local function logToFile(level, message, tags)
-    if not defaultConfig.enableFile then return end
-    local logMessage = formatMessage(level, message, tags)
-    local file = io.open(defaultConfig.filename, "a")
-    if file then
-        file:write(logMessage)
-        file:close()
-    end
-end
---]]
--- re write with max file size
 local function logToFile(level, message, tags)
     if not defaultConfig.enableFile then return end
     local logMessage = formatMessage(level, message, tags)
