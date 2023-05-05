@@ -87,10 +87,9 @@ local function logToFile(level, message, tags)
             os.rename(defaultConfig.filename, defaultConfig.filename .. ".old")
             file = io.open(defaultConfig.filename, "a")
         end
-        if file then
-            file:write(logMessage)
-            file:close()
-        end
+           
+        file:write(logMessage)
+        file:close()
     end
 end
 
